@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "LinkedIn Job Blocker",
+  "version": "1.0",
+  "description": "Block job postings from specific companies on LinkedIn.",
+  "permissions": ["storage", "scripting"],
+  "host_permissions": ["https://www.linkedin.com/jobs/*"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/block-icon-16.png",
+      "48": "icons/block-icon-48.png",
+      "128": "icons/block-icon-128.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.linkedin.com/jobs/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["icons/block-icon-48.png"],
+      "matches": ["https://www.linkedin.com/*"]
+    }
+  ]
+}

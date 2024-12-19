@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Blocked Companies</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      width: 300px;
+      padding: 10px;
+    }
+    h3 {
+      margin-top: 0;
+    }
+    .company-list {
+      list-style: none;
+      padding: 0;
+    }
+    .company-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 5px 0;
+      border-bottom: 1px solid #ddd;
+    }
+    .unblock-btn {
+      background-color: #ff4d4d;
+      color: white;
+      border: none;
+      padding: 3px 6px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .unblock-btn:hover {
+      background-color: #ff1a1a;
+    }
+
+
+  </style>
+</head>
+<body>
+
+  <h3>Blocked Companies</h3>
+  <ul class="company-list" id="companyList"></ul>
+
+  <script src="popup.js"></script>
+</body>
+</html>
