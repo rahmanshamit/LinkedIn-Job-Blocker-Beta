@@ -19,5 +19,3 @@ Public Release: Submit the extension to the Chrome Web Store for global accessib
 
 Once released, I will open up Issue submission to continue maintenance and improvement of this tool. LinkedIn aggressively refreshes and updates their frontend and DOM, so regular updates and
 maintenance is necessary. 
-![blocked_companies](https://github.com/user-attachments/assets/1cec49e0-7293-4d95-a643-f4d7a3c9766d)
-![block_button](https://github.com/user-attachments/assets/3d77f3c0-a6ac-4b2e-98f8-1d02567e04a9)
