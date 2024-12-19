@@ -1,9 +1,9 @@
 # LinkedIn-Job-Blocker
 
 # 🚀 Key Features
-    Block Companies: Easily block job postings from companies you want to avoid, such as spammers, staffing agencies, or irrelevant employers.
-    Clean Job Search Experience: Remove clutter and focus on opportunities that matter to you.
-    Persistent Block List: Your blocked companies are stored securely, ensuring a seamless experience across sessions.
+Block Companies: Easily block job postings from companies you want to avoid, such as spammers, staffing agencies, or irrelevant employers.
+Clean Job Search Experience: Remove clutter and focus on opportunities that matter to you.
+Persistent Block List: Your blocked companies are stored securely, ensuring a seamless experience across sessions.
 
 # 🛠️ Why This Extension?
 LinkedIn users often encounter repetitive or irrelevant job postings from specific companies, leading to frustration during their job search. LinkedIn Job Blocker solves this by giving you the power to hide posts from those companies and tailor your job feed to your preferences.
