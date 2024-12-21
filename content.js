@@ -105,7 +105,6 @@ function hideBlockedJobs() {
   });
 }
 
-
 // Function to monitor the job details pane for updates
 function observeJobDetails() {
   const jobDetailsContainer = document.querySelector('div.jobs-search__job-details--container');
@@ -135,12 +134,27 @@ function observeJobDetails() {
   insertBlockButton();
 }
 
-// Function to periodically check and hide blocked jobs
-function periodicallyHideBlockedJobs() {
-  hideBlockedJobs(); // Run once initially
-  setInterval(hideBlockedJobs, 2000); // Check every 2 seconds for new jobs
+// Function to monitor job list for updates
+function observeJobList() {
+  const jobListContainer = document.querySelector('ul > li[data-occludable-job-id]')?.closest('ul');
+
+  if (!jobListContainer) {
+    console.warn('Job list container not found. Retrying...');
+    setTimeout(observeJobList, 500);
+    return;
+  }
+
+  const observer = new MutationObserver(() => {
+    hideBlockedJobs(); // Check and hide jobs on updates
+  });
+
+  // Observe changes to the job list container
+  observer.observe(jobListContainer, { childList: true, subtree: true });
+
+  // Initial run
+  hideBlockedJobs();
 }
 
-// Start observing and hiding jobs
+// Start observing job details and list
 observeJobDetails(); // Observe changes in job details
-periodicallyHideBlockedJobs(); // Periodically hide blocked jobs
+observeJobList(); // Observe changes in the job list
