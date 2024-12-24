@@ -3,7 +3,7 @@
   "name": "LinkedIn Job Blocker",
   "version": "1.0",
   "description": "Block job postings from specific companies on LinkedIn.",
-  "permissions": ["storage", "scripting"],
+  "permissions": ["storage"],
   "host_permissions": ["https://www.linkedin.com/jobs/*"],
   "action": {
     "default_popup": "popup.html",
