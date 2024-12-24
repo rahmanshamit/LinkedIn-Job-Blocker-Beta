@@ -1,6 +1,6 @@
 # LinkedIn-Job-Blocker
-Firefox: https://addons.mozilla.org/en-US/firefox/addon/linkedin-job-blocker-beta/
-Chrome: https://chromewebstore.google.com/detail/linkedin-job-blocker/jmpcicmhekgcffnicdkjfdogiaeegohp
+- Firefox: https://addons.mozilla.org/en-US/firefox/addon/linkedin-job-blocker-beta/
+- Chrome: https://chromewebstore.google.com/detail/linkedin-job-blocker/jmpcicmhekgcffnicdkjfdogiaeegohp
 
 ## 🚀 Key Features
 - Block Companies: Easily block job postings from companies you want to avoid, such as spammers, staffing agencies, or irrelevant employers.
