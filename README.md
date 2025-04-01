@@ -18,7 +18,7 @@ so that you see jobs and listings you want to see, removing unwanted posts from 
 
 ##📋 Next Steps
 Thorough Testing: Validate the extension's functionality across various LinkedIn pages and job search scenarios.
-Public Release: Submit the extension to the Chrome Web Store for global accessibility.
 
-Once released, I will open up Issue submission to continue maintenance and improvement of this tool. LinkedIn aggressively refreshes and updates their frontend and DOM, so regular updates and
+Issue submission is open to continue maintenance and improvement of this tool. 
+LinkedIn aggressively refreshes and updates their frontend and DOM, so regular updates and
 maintenance is necessary. 
